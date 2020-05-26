@@ -8,6 +8,11 @@ fun main() {
     setTest()
 
     mapTest()
+
+    val a = 2
+    val b = 2
+    val c: Int = ((a * 1f / b) * 100).toInt()
+    println(c.toString())
 }
 
 fun mapTest() {

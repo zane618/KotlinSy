@@ -8,3 +8,11 @@ class Helper {
     fun getResultLength(s1: String, s2: String) =
         if(s1.length > s2.length) s1.length.toString() else s2.length.toString()
 }
+
+fun main() {
+
+}
+
+
+fun getResultLength(s1: String, s2: String) =
+    if(s1.length > s2.length) s1.length.toString() else s2.length.toString()

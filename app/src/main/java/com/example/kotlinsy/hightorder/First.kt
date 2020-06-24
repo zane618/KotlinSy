@@ -14,6 +14,8 @@ fun main() {
     //使用其他class中的方法
     val s3 = lock("abc", "abc123", Helper()::getResultLength)
     println(s3)
+    val s4 = lock("abc", "abc123", ::getResultLength)
+    println(s4)
 }
 
 /**我们在 Class 中的某个方法中使用双冒号调用当前 Class 的内部方法时调动方式如下：
